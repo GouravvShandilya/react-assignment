@@ -49,9 +49,7 @@ function App() {
           <div className="my-2 w-[100%] h-[100%]">
             <Feed2 />
           </div>
-
         </div>
-
       </div>
 
       {/* rightpart */}
@@ -66,16 +64,13 @@ function App() {
           <button className="font-[Gilroy] text-[#8D8D8D] font-[500]  text-[1vw]">photographers</button>
         </div>
 
-        <div className="w-[100%] h-[75%]  flex flex-col items-center gap-2">
+        <div className="w-[100%] h-[75%]  flex flex-col items-center gap-4">
           <Person />
           <Person2 />
           <Person3 />
           <Person4 />
-
         </div>
-
       </div>
-
     </div>
   );
 }
